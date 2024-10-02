@@ -18,6 +18,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SteerSetpointKBMState.msg"
   "msg/MPPIStats.msg"
+  "msg/MPPISolution.msg"
   DEPENDENCIES geometry_msgs nav_msgs
 )
 
