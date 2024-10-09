@@ -1,0 +1,3 @@
+geometry_msgs/Vector3 origin
+geometry_msgs/Vector3 length
+geometry_msgs/Vector3 resolution
