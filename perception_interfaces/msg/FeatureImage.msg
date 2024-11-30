@@ -6,4 +6,5 @@ uint32 height
 uint32 width
 uint32 num_channels
 
-std_msgs/Float32MultiArray data
+# use a uint8 array because numpy bytes are faster to serialize
+uint8[] data
