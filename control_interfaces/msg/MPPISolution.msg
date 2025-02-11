@@ -19,6 +19,15 @@ float32 solution_cost
 # whether solution violates any constraints
 bool solution_feasible
 
+# list of cost terms
+string[] cost_terms
+
+# costs for each cost term at the optimal solution
+float32[] solution_term_cost
+
+# feasibility for each cost term at the optimal solution
+bool[] solution_term_feasible
+
 #Use generic multiarrays for states/costs as this can vary based on the model
 std_msgs/Float32MultiArray solution_states
 std_msgs/Float32MultiArray solution_controls
