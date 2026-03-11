@@ -1,6 +1,5 @@
 std_msgs/Header header
 
-SteerSetpointKBMState[] trajectory
 float32 cost
 float32 average_speed
 float32 average_curvature

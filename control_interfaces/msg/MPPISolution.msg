@@ -4,8 +4,14 @@ std_msgs/Header header
 # number of dims in state
 int32 state_dim
 
+# state keys
+string[] state_key
+
 # number of dims in control
 int32 control_dim
+
+# control keys
+string[] control_keys
 
 # number of steps in control horizon
 int32 h
