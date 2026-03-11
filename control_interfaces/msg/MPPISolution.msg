@@ -5,7 +5,7 @@ std_msgs/Header header
 int32 state_dim
 
 # state keys
-string[] state_key
+string[] state_keys
 
 # number of dims in control
 int32 control_dim
