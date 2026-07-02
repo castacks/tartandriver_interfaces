@@ -18,6 +18,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Waypoint.msg"
   "msg/Mission.msg"
   "msg/BoolStamped.msg"
+  "msg/Float32Stamped.msg"
   DEPENDENCIES geometry_msgs
 )
 

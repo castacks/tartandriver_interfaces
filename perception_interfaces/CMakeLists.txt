@@ -20,6 +20,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/FeatureImage.msg"
   "msg/FeatureVoxelGrid.msg"
   "msg/VoxelCostGrid.msg"
+  "msg/FrontierScores.msg"
   "msg/VoxelGridMetadata.msg"
   DEPENDENCIES geometry_msgs nav_msgs std_msgs
 )
